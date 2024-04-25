@@ -15,4 +15,4 @@ def lazy_matrix_mul(m_a, m_b):
         result of the multiplication
 
     """
-    return (np.dot(m_a, m_b))
+    return (np.matmul(m_a, m_b))
